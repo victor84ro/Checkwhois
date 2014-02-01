@@ -11,4 +11,9 @@ git init
 git add .
 git commit -m "my first commit"
 
-heroku create
+heroku create  ##creates new application on Heroku##
+##http://damp-harbor-1283.herokuapp.com/ | git@heroku.com:damp-harbor-1283.git##
+
+## take an existing Git repo and add a remote using the git URL provided when you created your app. You may need to do this to associate a Git repo with an existing application. The heroku git:remote command will add this remote for you based on your applications git url. ##
+
+heroku git:remote -a damp-harbor-1283
