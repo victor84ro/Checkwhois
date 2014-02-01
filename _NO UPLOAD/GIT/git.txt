@@ -1,0 +1,14 @@
+## more info on http://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup ##
+
+cd D:\Scripts\Checkwhois\
+
+git config user.name "Site-Checker"
+git config user.email victor84ro@gmail.com
+
+git config --list
+
+git init
+git add .
+git commit -m "my first commit"
+
+heroku create

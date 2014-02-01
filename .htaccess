@@ -1,0 +1,15 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+Options -Indexes
+RedirectMatch 301 /index.php/(.*) //$1
+ErrorDocument 404 /404.html
+
+php_value max_execution_time 15
+
+php_flag zlib.output_compression On
+php_value zlib.output_compression_level 5
+
+ 
+
+
